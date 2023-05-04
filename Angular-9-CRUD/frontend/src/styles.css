@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary-color: #673ab7;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.title {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+/* Snack Bar */
+.mat-mdc-snack-bar-container.msg-success {
+    --mdc-snackbar-container-color: #28a745;
+    --mat-mdc-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
+}
+
+.mat-mdc-snack-bar-container.msg-error {
+    --mdc-snackbar-container-color: #ff0000;
+    --mat-mdc-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
+}
